@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ttXA9jxACz3uw/DyFtzvUVR+q4Y9vFtx/WzpbKaHXzA=",
+  "Source": "dotnetcoreApp",
+  "BasePath": "_content/dotnetcoreApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "RelatedManifests": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

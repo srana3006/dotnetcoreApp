@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF1285BE-56F6-49F8-ADEF-D19A96D88EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetcoreApp", "src\dotnetcoreApp\dotnetcoreApp.csproj", "{D80E8F93-EED7-4B7C-A30C-C3EB3DB99C56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B6CE146D-121D-4B85-9DE2-731134830F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetcoreApp.tests", "test\dotnetcoreApp.tests\dotnetcoreApp.tests.csproj", "{78EA3DA5-4618-4FC8-AB5C-FA3474B5C477}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D80E8F93-EED7-4B7C-A30C-C3EB3DB99C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80E8F93-EED7-4B7C-A30C-C3EB3DB99C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80E8F93-EED7-4B7C-A30C-C3EB3DB99C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80E8F93-EED7-4B7C-A30C-C3EB3DB99C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EA3DA5-4618-4FC8-AB5C-FA3474B5C477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EA3DA5-4618-4FC8-AB5C-FA3474B5C477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EA3DA5-4618-4FC8-AB5C-FA3474B5C477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EA3DA5-4618-4FC8-AB5C-FA3474B5C477}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D80E8F93-EED7-4B7C-A30C-C3EB3DB99C56} = {EF1285BE-56F6-49F8-ADEF-D19A96D88EB0}
+		{78EA3DA5-4618-4FC8-AB5C-FA3474B5C477} = {B6CE146D-121D-4B85-9DE2-731134830F59}
+	EndGlobalSection
+EndGlobal
